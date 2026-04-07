@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lunara Hotels</title>
+  <meta name="description" content="Discover elegant boutique hotel stays with Lunara House Hotels.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="brand" aria-label="Lunara House Hotels home">
+<img
+       src="images/logo1x.png"
+        srcset="images/logo1x.png 1x, images/logo2x.png 2x, images/logo3x.png 3x"
+        alt="Lunara House logo"
+  width="56"
+  height="56"
+  class="brand-logo"
+>
+        <div class="brand-text">
+          <span class="company-name">Lunara House</span>
+          <span class="company-subtitle">Curated Boutique Hotels</span>
+        </div>
+      </a>
+
+<button id="navButton" class="nav-button" aria-label="Open navigation" aria-expanded="false" aria-controls="primaryNav" type="button">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+
+      <nav id="primaryNav" class="site-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="#" class="active">Collection</a></li>
+          <li><a href="#">Destinations</a></li>
+          <li><a href="#">Experiences</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#" class="nav-cta">Reserve</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="mainContent">
+    <section class="hero">
+      <div class="hero-inner">
+        <h1>Explore a thoughtfully curated hotel collection</h1>
+      </div>
+    </section>
+
+    <section class="intro">
+      <div class="intro-inner">
+        <h2>Eight boutique stays with timeless character</h2>
+        <p>
+          Browse our hotel cards below for location and direct contact information. Each property is designed to feel warm, elevated, and personal.
+        </p>
+      </div>
+    </section>
+
+    <section class="cards-section hotel-listing">
+      <div id="hotelCards" class="hotel-grid"></div>
+    </section>
+
+    <section class="newsletter-signup">
+  <div class="newsletter-media">
+    <img
+      src="images/lobby.webp"
+      alt="Luxury desert hotel patio with lounge chairs and canyon view"
+      width="1600"
+      height="900"
+    >
+  </div>
+
+  <div class="newsletter-card">
+    <p class="newsletter-eyebrow">
+      For exclusive benefits, insider news<br>
+      and out-of-the-box travel inspirations
+    </p>
+
+    <h2>Sign up for<br>our newsletter</h2>
+
+    <form class="newsletter-form" action="#" method="post">
+      <label for="newsletter-email" class="visually-hidden">Your email address</label>
+      <input
+        type="email"
+        id="newsletter-email"
+        name="newsletter-email"
+        placeholder="Your email address"
+        required
+      >
+      <button type="submit">Sign Up</button>
+    </form>
+
+    <p class="newsletter-legal">
+      Your personal data is used to provide requested services, send hotel updates, and share curated travel inspiration. You may request access, correction, or removal of your information at any time.
+    </p>
+  </div>
+</section>
+  </main>
+
+<div id="footerWrapper">
+  <footer class="footer">
+
+    <div class="footer-brand">
+      <h3>Lunara House</h3>
+      <p>Curated Boutique Hotels</p>
+    </div>
+
+    <section class="footerCol social">
+      <h4>Follow</h4>
+      <div class="socialRow">
+        <a href="#" aria-label="Facebook"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="#" aria-label="Twitter"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href="#" aria-label="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a>
+        <a href="#" aria-label="Instagram"><ion-icon name="logo-instagram"></ion-icon></a>
+    </section>
+
+    <section class="footerCol help">
+      <h4>Let Us Help</h4>
+     <p>
+        Contact Us <br>
+        Help <br>
+        Terms & Conditons <br>
+        Privacy Policy <br>
+     </p>
+    </section>
+
+    <div class="footerBottom">
+      <p class="legal">&copy; <span id="year">x</span> • Savannah Longmore</p>
+    </div>
+  </footer>
+
+
+
+
+ <div id="hotelModal" class="modal">
+    <div class="modal-overlay"></div>
+
+    <div class="modal-content">
+      <button class="modal-close">×</button>
+
+      <h2 class="modal-title">Hotel Name</h2>
+
+      <p>This is where hotel details or booking info could go.</p>
+
+      <a href="#" class="modal-button">Book Now</a>
+    </div>
+  </div>
+
+  <script type="module" src="js/scripts.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

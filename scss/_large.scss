@@ -1,0 +1,140 @@
+.nav-button {
+  display: none;
+}
+
+.site-nav {
+  position: static;
+  width: auto;
+  height: auto;
+  background: transparent;
+}
+
+.site-nav ul {
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+}
+
+.site-nav a {
+  border-radius: 999px;
+  padding: 0.6rem 1rem;
+}
+
+
+.intro {
+  padding: 5rem 2rem 3.5rem 2rem;
+}
+
+.intro-inner {
+  max-width: 60rem;
+}
+
+.intro h2 {
+  font-size: 3.2rem;
+}
+
+.intro p {
+  font-size: 1.1rem;
+}
+
+.hotel-grid {
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.hero {
+  min-height: 75vh;
+  padding: 4rem;
+}
+
+.hero h1 {
+  font-size: 4rem;
+}
+
+.newsletter-signup {
+  max-width: 1600px;
+  margin: 6rem auto;
+  min-height: 760px;
+  padding: 2rem 0 0;
+  position: relative;
+  display: grid;
+  align-items: center;
+}
+
+.newsletter-media {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+}
+
+.newsletter-media img {
+  width: 100%;
+  height: 760px;
+  object-fit: cover;
+}
+
+.newsletter-card {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  width: 510px;
+  margin: 0 0 0 24%;
+  padding: 7rem 4rem 2.75rem;
+  align-self: center;
+  justify-self: start;
+}
+
+.newsletter-card h2 {
+  font-size: 4.25rem;
+  max-width: 8ch;
+}
+
+.newsletter-form {
+  margin-bottom: 3rem;
+}
+
+.newsletter-form input {
+  font-size: 1.05rem;
+}
+
+.newsletter-legal {
+  max-width: 25rem;
+}
+
+.modal-content {
+  max-width: 700px;
+  padding: 3rem;
+}
+
+
+@media (min-width: 900px) {
+  .footer {
+    max-width: 1100px; /* 👈 slightly tighter than full screen */
+    margin: 0 auto;
+
+    grid-template-columns: auto auto auto;
+    justify-content: center; /* 👈 THIS centers the columns */
+
+    gap: 4rem; /* 👈 more intentional spacing */
+    align-items: start;
+
+    text-align: left;
+  }
+
+  .footerCol,
+  .footer-brand {
+    max-width: 260px; /* 👈 prevents stretching */
+  }
+
+  .footerCol.social {
+    align-items: center; /* keeps icons visually centered */
+  }
+
+  .socialRow {
+    justify-content: center;
+  }
+
+  .footerBottom {
+    max-width: 1100px;
+    margin: 2rem auto 0;
+    justify-content: space-between;
+  }
+}

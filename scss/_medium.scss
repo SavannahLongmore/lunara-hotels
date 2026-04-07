@@ -1,0 +1,62 @@
+.header-inner,
+.hero,
+.hotel-listing {
+  max-width: var(--max-width);
+  margin: auto;
+}
+
+.intro {
+  padding: 4rem 1.5rem 3rem 1.5rem;
+}
+
+.intro-inner {
+  max-width: 50rem;
+}
+
+.intro h2 {
+  font-size: 2.6rem;
+}
+
+.intro p {
+  font-size: 1.05rem;
+}
+
+.hotel-card {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+}
+
+.hotel-card img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.newsletter-signup {
+  max-width: 1400px;
+  margin: 5rem auto;
+  position: relative;
+  padding: 0 1.5rem;
+}
+
+.newsletter-media img {
+  height: 520px;
+}
+
+.newsletter-card {
+  width: min(520px, 78%);
+  margin: -4.5rem 0 0 2rem;
+  padding: 3rem 2.25rem 2rem;
+}
+
+.newsletter-eyebrow {
+  max-width: 24rem;
+}
+
+.newsletter-card h2 {
+  margin-bottom: 2.5rem;
+}
+
+.modal-content {
+  max-width: 600px;
+  padding: 2.5rem;
+}
